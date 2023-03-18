@@ -4,16 +4,10 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: start;    
-  width: 100%;
-  height: 100vh;
-  padding-top: 100px;  
-  font-family: "Roboto", sans-serif;
-  background-image:  url(${(props) => props.bgImgUrl});
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-
   
+  height: 100%;
+  padding-top: 100px;  
+  font-family: "Roboto", sans-serif;  
 `;
 export const Card = styled.div`
   background-color: #ffffff80;

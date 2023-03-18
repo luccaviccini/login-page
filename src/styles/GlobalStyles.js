@@ -31,10 +31,16 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1;	
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
 	
-
 }
+
+
+
 ol, ul {
 	list-style: none;
 }
@@ -55,4 +61,5 @@ table {
 	
 }
 `
+
 export default GlobalStyle

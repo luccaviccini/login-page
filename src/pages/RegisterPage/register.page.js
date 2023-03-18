@@ -9,10 +9,12 @@ import{
 } from
 "../../components/login-register.components.js";
 import { Link } from "react-router-dom";
+import PageWrapper from "../../components/PageWrapper";
 
 function RegisterPage() {
   return (
-    <Container bgImgUrl = "https://i.imgur.com/XbRg9D7.png">
+    <PageWrapper  backgroundImage="https://i.imgur.com/XbRg9D7.png">
+    <Container >
       <Card>
         <h1>Register</h1>
         <LabelFloat>
@@ -42,6 +44,7 @@ function RegisterPage() {
         </RegisterParagraph>
       </Card>
     </Container>
+    </PageWrapper>
   );
 }
 
