@@ -1,8 +1,13 @@
-
+import React from "react";
+import LoginPage from "./pages/LoginPage/login.page.js";
+import GlobalStyle from "./styles/GlobalStyles.js";
 
 function App() {
   return (
-    <h1>Hello World</h1>
+    <>
+      <GlobalStyle />
+      <LoginPage />
+    </>
   );
 }
 
