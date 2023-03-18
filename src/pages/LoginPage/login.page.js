@@ -7,11 +7,11 @@ function LoginPage() {
       <Card>
         <h1>Login</h1>
         <LabelFloat>
-          <input type="text" id="username" placeholder="" />
+          <input type="text" id="username" placeholder="" required/>
           <label for="username">Username</label>
         </LabelFloat>
         <LabelFloat>
-          <input type="password" id="password" placeholder="" />
+          <input type="password" id="password" placeholder="" required />
           <label for="password">Password</label>
         </LabelFloat>
         <ButtonContainer>
@@ -83,7 +83,8 @@ const LabelFloat = styled.div`
     transition: all 0.3s ease-out;
   }
 
-  input:focus + label {
+  input:focus + label,
+  input:valid + label {
     font-size: 13px;
     margin-top: 0px;
     color: #4038a0;
