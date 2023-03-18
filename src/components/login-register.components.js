@@ -3,9 +3,23 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   justify-content: center;
+  align-items: start;    
   width: 100%;
-  margin-top: 100px;
+  height: 100vh;
+  padding-top: 100px;  
   font-family: "Roboto", sans-serif;
+  background-image:  url(${(props) => props.bgImgUrl});
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  
+`;
+export const Card = styled.div`
+  background-color: #ffffff80;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 6px 5px 1px 0 rgba(0, 0, 0, 0.7);
 
   h1 {
     text-align: center;
@@ -14,12 +28,6 @@ export const Container = styled.div`
     color: #272262;
     margin-bottom: 20px;
   }
-`;
-export const Card = styled.div`
-  background-color: #ffffff80;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 6px 5px 1px 0 rgba(0, 0, 0, 0.7);
 `;
 export const LabelFloat = styled.div`
   position: relative;

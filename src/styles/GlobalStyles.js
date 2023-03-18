@@ -32,10 +32,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	background-image: url(https://i.imgur.com/K8lDBYU.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+	
 
 }
 ol, ul {
