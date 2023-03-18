@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <GlobalStyle />
       <Routes>
-      <Route path="/login" element={<LoginPage />}></Route>
+      <Route path="/" element={<LoginPage />}></Route>
       <Route path="/register" element={<RegisterPage />}></Route>
       </Routes>      
     </BrowserRouter>
